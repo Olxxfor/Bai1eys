@@ -6,12 +6,10 @@ node_modules/
 .venv/
 # folder kerja sementara milik test/_wa_otp_probe.mjs
 .wa-probe-*/
-wrangler.toml
 .claude/
 *.har
 .env*
 .env* >> .gitignore.env.example
-wrangler.toml
 .claude/
 *.har
 Baileys cos.zip
