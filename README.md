@@ -7,12 +7,12 @@
 Satu Worker, puluhan endpoint — AI, tools, stalker, temp-mail, bypass, dan lainnya —
 lengkap dengan halaman dokumentasi & playground interaktif.
 
-[![Live](https://img.shields.io/badge/live-api.makluxnxx.my.id-2ea44f?style=for-the-badge&logo=cloudflare&logoColor=white)](https://api.makluxnxx.my.id)
+[![Live](https://img.shields.io/badge/live-api.makluxnxx.my.id-2ea44f?style=for-the-badge&logo=cloudflare&logoColor=white)](https://api-n0xx.vercel.app)
 [![Platform](https://img.shields.io/badge/Cloudflare-Workers-F38020?style=for-the-badge&logo=cloudflare&logoColor=white)](https://workers.cloudflare.com/)
 [![Runtime](https://img.shields.io/badge/Node-JS-339933?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org/)
 [![Storage](https://img.shields.io/badge/D1-SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)](https://developers.cloudflare.com/d1/)
 
-**🌐 Live:** [api.makluxnxx.my.id](https://api.makluxnxx.my.id) &nbsp;·&nbsp;
+**🌐 Live:** [api.makluxnxx.my.id](https://api-n0xx.vercel.app) &nbsp;·&nbsp;
 **👤 Author:** DikZz Xynzz &nbsp;·&nbsp;
 **💬 Contact:** [WhatsApp](https://wa.me/6285757411154) · [Telegram](https://t.me/maklohytam)
 
@@ -684,6 +684,6 @@ body, and re-wrapping is what keeps that out of a DIKZZAPI response.
 
 **Dibangun & dirawat oleh DikZz Xynzz** · berjalan di Cloudflare Workers ⚡
 
-<sub>© DIKZZAPI — <a href="https://api.makluxnxx.my.id">api.makluxnxx.my.id</a></sub>
+<sub>© DIKZZAPI — <a href="https://api-n0xx.vercel.app">api.makluxnxx.my.id</a></sub>
 
 </div>

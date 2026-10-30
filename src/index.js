@@ -90,7 +90,7 @@ async function dispatch(request, env, ctx, path) {
   const route = match(path);
 
   if (!route) {
-    return fail(`Endpoint "${path}" tidak ditemukan. Lihat daftar lengkap di https://api.makluxnxx.my.id`, 404);
+    return fail(`Endpoint "${path}" tidak ditemukan. Lihat daftar lengkap di https://api-n0xx.vercel.app`, 404);
   }
 
   const { endpoint, mode, inject } = route;
