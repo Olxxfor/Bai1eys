@@ -4,11 +4,6 @@ compatibility_date = "2025-08-01"
 compatibility_flags = ["nodejs_compat"]
 account_id = "580e1a6a5ceb040e14438442ee1bbd75"
 
-# ── Custom domain ─────────────────────────────────────────────
-routes = [
-  { pattern = "api.makluxnxx.my.id", custom_domain = true }
-]
-
 # ── Static docs UI (public/) ──────────────────────────────────
 [assets]
 directory = "./public"
@@ -30,9 +25,8 @@ database_name = "Api-n0xx"
 database_id = "2d35d5e4-20ec-462f-8494-2cd7258ebbc7"
 
 [vars]
-# Display brand only. The Worker script name, D1 database name and the custom
-# domain stay as-is: renaming those would create a new Worker and detach the
-# live route + database.
+# Display brand only. The Worker script name and D1 database are managed
+# separately in this configuration.
 SITE_NAME = "SONN91APIs"
 OWNER_WA = "6285757411154"
 OWNER_TG = "maklohytam"
