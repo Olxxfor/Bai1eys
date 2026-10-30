@@ -26,8 +26,8 @@ crons = ["* * * * *"]
 # ── D1: request counters, bandwidth, recent activity ──────────
 [[d1_databases]]
 binding = "DB"
-database_name = "makluxnxx-api-stats"
-database_id = "9da212b2-9d14-4ef8-89fa-2a0684dca53a"
+database_name = "Api-n0xx"
+database_id = "2d35d5e4-20ec-462f-8494-2cd7258ebbc7"
 
 [vars]
 # Display brand only. The Worker script name, D1 database name and the custom

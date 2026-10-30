@@ -1,9 +1,5 @@
 import worker from '../src/index.js'
 
-export const config = {
-  runtime: 'nodejs'
-}
-
 function createContext() {
   return {
     waitUntil(promise) {

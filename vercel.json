@@ -1,13 +1,8 @@
 {
   "version": 2,
-  "buildCommand": "echo 'Static assets ready'",
-  "outputDirectory": "public",
   "rewrites": [
+    { "source": "/v1/:path*", "destination": "/api/v1/:path*" },
     { "source": "/docs", "destination": "/docs.html" },
-    { "source": "/information", "destination": "/information.html" },
-    { "source": "/v1/:path*", "destination": "/api/v1/:path*" }
-  ],
-  "redirects": [
-    { "source": "/api", "destination": "/", "permanent": false }
+    { "source": "/information", "destination": "/information.html" }
   ]
 }

@@ -15,9 +15,12 @@
  * on the same port, so the scheme in the proxy URL picks the handshake.
  */
 
-import { connect } from 'cloudflare:sockets';
-
 const enc = new TextEncoder();
+
+async function cloudflareConnect() {
+  const moduleName = ['cloudflare', 'sockets'].join(':');
+  return (await import(moduleName)).connect;
+}
 const dec = new TextDecoder();
 
 /** Buffered reader over a socket ReadableStream — exact-N, line, and EOF reads. */
@@ -238,6 +241,7 @@ export async function proxiedGet(proxyUrl, targetUrl, headers = {}, timeoutMs = 
   const portTujuan = Number(target.port) || (target.protocol === 'http:' ? 80 : 443);
   const tujuan = { hostname: target.hostname, port: portTujuan };
 
+  const connect = await cloudflareConnect();
   const socket = await connect(
     { hostname: proxy.hostname, port: Number(proxy.port) || 7778 },
     { secureTransport: 'starttls' }
