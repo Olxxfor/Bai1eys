@@ -2,13 +2,30 @@
 
 # ⚡ DIKZZAPI
 
-**API documentation portal + live playground running on Cloudflare Workers.**
+**API documentation portal + live playground running on Vercel Functions.**
 
-Satu Worker, puluhan endpoint — AI, tools, stalker, temp-mail, bypass, dan lainnya —
-lengkap dengan halaman dokumentasi & playground interaktif.
+  Satu deployment Vercel, puluhan endpoint — AI, tools, stalker, temp-mail, bypass, dan lainnya —
+  lengkap dengan halaman dokumentasi & playground interaktif.
+
+  ## Deployment Vercel
+
+  Folder `src/` tetap menjadi sumber seluruh endpoint API. Adapter `api/[...path].js`
+  meneruskan request Vercel ke entrypoint Worker, sedangkan folder `public/` menjadi
+  halaman web dan dokumentasi. Import repository ini ke Vercel dengan Root Directory
+  di root repository dan Framework Preset `Other`.
+
+  Endpoint yang tersedia:
+
+  - `https://api-n0xx.vercel.app/api/catalog`
+  - `https://api-n0xx.vercel.app/api/health`
+  - `https://api-n0xx.vercel.app/v1/...`
+
+  Fitur yang bergantung pada Cloudflare binding seperti D1, Workers AI, dan Cron perlu
+  dikonfigurasi ulang di Vercel sebelum endpoint terkait digunakan.
+
 
 [![Live](https://img.shields.io/badge/live-api-n0xx.vercel.app-2ea44f?style=for-the-badge&logo=cloudflare&logoColor=white)](https://api-n0xx.vercel.app)
-[![Platform](https://img.shields.io/badge/Cloudflare-Workers-F38020?style=for-the-badge&logo=cloudflare&logoColor=white)](https://workers.cloudflare.com/)
+[![Platform](https://img.shields.io/badge/Vercel-Functions-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://vercel.com/)
 [![Runtime](https://img.shields.io/badge/Node-JS-339933?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org/)
 [![Storage](https://img.shields.io/badge/D1-SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)](https://developers.cloudflare.com/d1/)
 
