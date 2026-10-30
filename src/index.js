@@ -1,5 +1,5 @@
 /**
- * DikZzCodeAPIs — Cloudflare Worker entry point.
+ * SONN91APIs — Cloudflare Worker entry point.
  *
  * Responsibilities, in order:
  *   1. CORS preflight
@@ -7,7 +7,7 @@
  *   3. Endpoint dispatch for /v1/* from the registry
  *   4. Anything else falls through to the static assets in public/
  *
- * Author: DikZzCode — t.me/maklohytam
+ * Author: SONN91 — t.me/maklohytam
  */
 
 import { match, catalog } from './lib/registry.js';
@@ -90,7 +90,7 @@ async function dispatch(request, env, ctx, path) {
   const route = match(path);
 
   if (!route) {
-    return fail(`Endpoint "${path}" tidak ditemukan. Lihat daftar lengkap di https://api.makluxnxx.my.id`, 404);
+    return fail(`Endpoint "${path}" tidak ditemukan. Lihat daftar lengkap di https://api-n0xx.vercel.app`, 404);
   }
 
   const { endpoint, mode, inject } = route;
@@ -150,7 +150,7 @@ async function dispatch(request, env, ctx, path) {
 
   const out = new Response(response.body, response);
   out.headers.set('x-response-time', `${elapsed}ms`);
-  out.headers.set('x-powered-by', 'DikZzCodeAPIs - DikZzCode');
+  out.headers.set('x-powered-by', 'SONN91APIs - SONN91');
   return out;
 }
 

@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "type": "module",
-  "description": "API documentation portal + live playground running on Cloudflare Workers",
+  "description": "API documentation portal + live playground running on Vercel Functions",
   "scripts": {
     "dev": "wrangler dev",
     "deploy": "wrangler deploy",

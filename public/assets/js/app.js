@@ -9,10 +9,10 @@ export const CONTACTS = {
   whatsapp: 'https://wa.me/6285757411154',
   telegram: 'https://t.me/maklohytam',
   telegramBackup: 'https://t.me/dikzxinxz',
-  author: 'DikZzCode',
+  author: 'SONN91',
 };
 
-export const BRAND = { name: 'DikZzCode', suffix: 'APIs', full: 'DikZzCodeAPIs' };
+export const BRAND = { name: 'SONN91', suffix: 'APIs', full: 'SONN91APIs' };
 
 /* ── Formatting ─────────────────────────────────────────────── */
 
@@ -158,8 +158,8 @@ export function renderSidebar(active) {
       <a class="brand" href="/">
         <div class="brand-mark">${logo(26)}</div>
         <div>
-          <div class="brand-name"><span class="dz">DikZzCode</span><i class="api">APIs</i></div>
-          <div class="brand-sub">by DikZzCode</div>
+          <div class="brand-name"><span class="dz">SONN91</span><i class="api">APIs</i></div>
+          <div class="brand-sub">by SONN91</div>
         </div>
       </a>
       <nav class="nav">${items}</nav>

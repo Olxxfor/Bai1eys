@@ -30,3 +30,4 @@ src/apis/tools/detect-otp-whatsapp.js
 src/apis/tools/ngl-spam.js
 src/apis/tools/whatsapp-react.js
 Baileys cos.zip
+.vercel

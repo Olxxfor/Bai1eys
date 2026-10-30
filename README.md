@@ -2,17 +2,34 @@
 
 # ⚡ DIKZZAPI
 
-**API documentation portal + live playground running on Cloudflare Workers.**
+**API documentation portal + live playground running on Vercel Functions.**
 
-Satu Worker, puluhan endpoint — AI, tools, stalker, temp-mail, bypass, dan lainnya —
-lengkap dengan halaman dokumentasi & playground interaktif.
+  Satu deployment Vercel, puluhan endpoint — AI, tools, stalker, temp-mail, bypass, dan lainnya —
+  lengkap dengan halaman dokumentasi & playground interaktif.
 
-[![Live](https://img.shields.io/badge/live-api.makluxnxx.my.id-2ea44f?style=for-the-badge&logo=cloudflare&logoColor=white)](https://api.makluxnxx.my.id)
-[![Platform](https://img.shields.io/badge/Cloudflare-Workers-F38020?style=for-the-badge&logo=cloudflare&logoColor=white)](https://workers.cloudflare.com/)
+  ## Deployment Vercel
+
+  Folder `src/` tetap menjadi sumber seluruh endpoint API. Adapter `api/[...path].js`
+  meneruskan request Vercel ke entrypoint Worker, sedangkan folder `public/` menjadi
+  halaman web dan dokumentasi. Import repository ini ke Vercel dengan Root Directory
+  di root repository dan Framework Preset `Other`.
+
+  Endpoint yang tersedia:
+
+  - `https://api-n0xx.vercel.app/api/catalog`
+  - `https://api-n0xx.vercel.app/api/health`
+  - `https://api-n0xx.vercel.app/v1/...`
+
+  Fitur yang bergantung pada Cloudflare binding seperti D1, Workers AI, dan Cron perlu
+  dikonfigurasi ulang di Vercel sebelum endpoint terkait digunakan.
+
+
+[![Live](https://img.shields.io/badge/live-api-n0xx.vercel.app-2ea44f?style=for-the-badge&logo=cloudflare&logoColor=white)](https://api-n0xx.vercel.app)
+[![Platform](https://img.shields.io/badge/Vercel-Functions-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://vercel.com/)
 [![Runtime](https://img.shields.io/badge/Node-JS-339933?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org/)
 [![Storage](https://img.shields.io/badge/D1-SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)](https://developers.cloudflare.com/d1/)
 
-**🌐 Live:** [api.makluxnxx.my.id](https://api.makluxnxx.my.id) &nbsp;·&nbsp;
+**🌐 Live:** [api-n0xx.vercel.app](https://api-n0xx.vercel.app) &nbsp;·&nbsp;
 **👤 Author:** DikZz Xynzz &nbsp;·&nbsp;
 **💬 Contact:** [WhatsApp](https://wa.me/6285757411154) · [Telegram](https://t.me/maklohytam)
 
@@ -527,7 +544,7 @@ before `schema.sql` is applied.
 | Command | What it does |
 | --- | --- |
 | `npm run dev` | Local server on `http://127.0.0.1:8787` |
-| `npm run deploy` | Publish to `api.makluxnxx.my.id` |
+| `npm run deploy` | Publish to `api-n0xx.vercel.app` |
 | `npm run db:init` | Apply `schema.sql` to the remote D1 database |
 | `npm run db:init:local` | Same, for the local dev database |
 | `npm run new` | Scaffold a new endpoint |
@@ -684,6 +701,6 @@ body, and re-wrapping is what keeps that out of a DIKZZAPI response.
 
 **Dibangun & dirawat oleh DikZz Xynzz** · berjalan di Cloudflare Workers ⚡
 
-<sub>© DIKZZAPI — <a href="https://api.makluxnxx.my.id">api.makluxnxx.my.id</a></sub>
+<sub>© DIKZZAPI — <a href="https://api-n0xx.vercel.app">api-n0xx.vercel.app</a></sub>
 
 </div>

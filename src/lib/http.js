@@ -22,7 +22,7 @@ export async function fetchWithTimeout(url, options = {}, timeoutMs = 15000) {
       ...options,
       signal: controller.signal,
       headers: {
-        'user-agent': 'Mozilla/5.0 (compatible; DikZzCodeAPIs/1.0; +https://api.makluxnxx.my.id)',
+        'user-agent': 'Mozilla/5.0 (compatible; SONN91APIs/1.0; +https://api-n0xx.vercel.app)',
         ...(options.headers || {}),
       },
     });

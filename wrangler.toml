@@ -33,7 +33,7 @@ database_id = "9da212b2-9d14-4ef8-89fa-2a0684dca53a"
 # Display brand only. The Worker script name, D1 database name and the custom
 # domain stay as-is: renaming those would create a new Worker and detach the
 # live route + database.
-SITE_NAME = "DikZzCodeAPIs"
+SITE_NAME = "SONN91APIs"
 OWNER_WA = "6285757411154"
 OWNER_TG = "maklohytam"
 
