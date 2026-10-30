@@ -6,7 +6,7 @@
 export const BRAND = {
   author: 'VantyXx',
   short: 'SONN91',
-  whatsapp: 'https://wa.me/6285880876542',
+  whatsapp: 'https://wa.me/6285880876243',
   telegram: 'https://t.me/VantyxXOfficial',
   telegramBackup: 'https://t.me/SONN91',
 };
