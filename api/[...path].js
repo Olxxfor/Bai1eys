@@ -1,7 +1,7 @@
 import worker from '../src/index.js'
 
 export const config = {
-  runtime: 'nodejs20.x'
+  runtime: 'nodejs'
 }
 
 function createContext() {
