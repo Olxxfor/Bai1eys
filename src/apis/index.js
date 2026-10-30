@@ -61,6 +61,12 @@ import ytMp3 from './download/yt-mp3.js';
 import tempmail from './tools/emailqu.js';
 import mailedu from './tools/mailedu.js';
 
+// ── Bypass ────────────────────────────────────────────────────
+import turnstileMin from './bypass/turnstile-min.js';
+import turnstileMinV2 from './bypass/turnstile-min-v2.js';
+import turnstileMinV3 from './bypass/turnstile-min-v3.js';
+import sfl from './bypass/sfl.js';
+
 // ── Info / Information ────────────────────────────────────────
 import cekGempa from './info/cek-gempa.js';
 import infoCuaca from './info/cuaca.js';
@@ -83,6 +89,7 @@ import beritaTribun from './berita/tribun.js';
 
 // ── Tools ─────────────────────────────────────────────────────
 import alightmotion from './tools/alightmotion.js';
+import nglSpam from './tools/ngl-spam.js';
 import hash from './tools/hash.js';
 import base64 from './tools/base64.js';
 import qrcode from './tools/qrcode.js';
@@ -94,6 +101,8 @@ import encryptPython from './tools/encrypt-python.js';
 import encryptJs from './tools/encrypt-js.js';
 import encryptBase64 from './tools/encrypt-base64.js';
 import decryptTool from './tools/decrypt.js';
+import whatsappReact from './tools/whatsapp-react.js';
+import detectOtpWhatsapp from './tools/detect-otp-whatsapp.js';
 import ubotLogin from './tools/ubot-login.js';
 
 export default [
@@ -136,6 +145,10 @@ export default [
   ytMp3,
   tempmail,
   mailedu,
+  turnstileMin,
+  turnstileMinV2,
+  turnstileMinV3,
+  sfl,
   cekGempa,
   infoCuaca,
   jadwalTv,
@@ -153,6 +166,7 @@ export default [
   beritaOkezone,
   beritaTribun,
   alightmotion,
+  nglSpam,
   hash,
   base64,
   qrcode,
@@ -164,5 +178,7 @@ export default [
   encryptJs,
   encryptBase64,
   decryptTool,
+  whatsappReact,
+  detectOtpWhatsapp,
   ubotLogin,
 ];
