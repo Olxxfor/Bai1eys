@@ -16,7 +16,7 @@ export default {
   category: 'Stalker',
   path: '/v1/stalk/tiktok',
   method: 'GET',
-  example: '/v1/stalk/tiktok?username=maklohytam',
+  example: '/v1/stalk/tiktok?username=SONN91',
   params: [
     {
       name: 'username',

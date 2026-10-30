@@ -11,7 +11,7 @@ function createContext() {
 
 export default async function handler(request, response) {
   const protocol = request.headers['x-forwarded-proto'] || 'https'
-  const host = request.headers.host || 'api-n0xx.vercel.app'
+  const host = request.headers.host || 'api.yukamodesange-host.my.id'
   const url = new URL(request.url || '/', `${protocol}://${host}`)
   if (url.pathname.startsWith('/api/v1/')) {
     url.pathname = url.pathname.slice('/api'.length)

@@ -55,7 +55,7 @@ const sendMessage = (env, chatId, text, extra = {}) =>
   tg(env, 'sendMessage', { chat_id: chatId, text, parse_mode: 'HTML', ...extra });
 
 const HELP = [
-  '<b>DIKZZAPI · Rewind Bot</b>',
+  '<b>VANTYX DEV. · Rewind Bot</b>',
   '',
   '<b>Umum</b>',
   '• /help — daftar perintah',

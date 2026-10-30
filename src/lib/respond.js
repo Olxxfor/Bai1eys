@@ -11,7 +11,7 @@ export const BRAND = {
   telegramBackup: 'https://t.me/SONN91',
 };
 
-const CREATOR = 'SONN91 — t.me/maklohytam';
+const CREATOR = 'SONN91 — t.me/SONN91';
 
 const BASE_HEADERS = {
   'content-type': 'application/json; charset=utf-8',

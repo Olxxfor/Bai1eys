@@ -7,12 +7,12 @@ import { icon, spider, logo } from './icons.js';
 
 export const CONTACTS = {
   whatsapp: 'https://wa.me/6285757411154',
-  telegram: 'https://t.me/maklohytam',
+  telegram: 'https://t.me/SONN91',
   telegramBackup: 'https://t.me/dikzxinxz',
   author: 'SONN91',
 };
 
-export const BRAND = { name: 'SONN91', suffix: 'APIs', full: 'SONN91APIs' };
+export const BRAND = { name: 'SONN91', suffix: 'APIs', full: 'VANTYX DEV.' };
 
 /* ── Formatting ─────────────────────────────────────────────── */
 
@@ -186,7 +186,7 @@ export function renderSidebar(active) {
 export function renderDock() {
   const links = [
     { href: CONTACTS.whatsapp, cls: 'wa', ico: 'whatsapp', title: 'WhatsApp', sub: '+62 857 5741 1154' },
-    { href: CONTACTS.telegram, cls: 'tg', ico: 'telegram', title: 'Telegram', sub: '@maklohytam' },
+    { href: CONTACTS.telegram, cls: 'tg', ico: 'telegram', title: 'Telegram', sub: '@SONN91' },
     { href: CONTACTS.telegramBackup, cls: 'tg2', ico: 'telegram', title: 'Telegram 2', sub: '@dikzxinxz' },
   ];
 

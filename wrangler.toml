@@ -27,9 +27,9 @@ database_id = "2d35d5e4-20ec-462f-8494-2cd7258ebbc7"
 [vars]
 # Display brand only. The Worker script name and D1 database are managed
 # separately in this configuration.
-SITE_NAME = "SONN91APIs"
+SITE_NAME = "VANTYX DEV."
 OWNER_WA = "6285757411154"
-OWNER_TG = "maklohytam"
+OWNER_TG = "SONN91"
 
 # Telegram management bot (owner-only). The webhook lives at POST /api/telegram.
 # OWNER_ID gates every command; only this Telegram user may manage the key pool.
