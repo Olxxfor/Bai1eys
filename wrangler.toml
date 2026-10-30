@@ -6,7 +6,7 @@ account_id = "580e1a6a5ceb040e14438442ee1bbd75"
 
 # ── Custom domain ─────────────────────────────────────────────
 routes = [
-  { pattern = "api.makluxnxx.my.id", custom_domain = true }
+  { pattern = "api.yukamodesange-host.my.id", custom_domain = true }
 ]
 
 # ── Static docs UI (public/) ──────────────────────────────────
