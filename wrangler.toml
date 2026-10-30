@@ -33,7 +33,7 @@ database_id = "2d35d5e4-20ec-462f-8494-2cd7258ebbc7"
 # Display brand only. The Worker script name, D1 database name and custom
 # domain are managed separately in this configuration.
 SITE_NAME = "VANTYX DEV."
-OWNER_WA = "6285880876542"
+OWNER_WA = "6285880876243"
 OWNER_TG = "SONN91"
 
 # Telegram management bot (owner-only). The webhook lives at POST /api/telegram.
