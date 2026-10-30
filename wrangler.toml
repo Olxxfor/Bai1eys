@@ -30,10 +30,9 @@ database_name = "Api-n0xx"
 database_id = "2d35d5e4-20ec-462f-8494-2cd7258ebbc7"
 
 [vars]
-# Display brand only. The Worker script name, D1 database name and the custom
-# domain stay as-is: renaming those would create a new Worker and detach the
-# live route + database.
-SITE_NAME = "SONN91APIs"
+# Display brand only. The Worker script name, D1 database name and custom
+# domain are managed separately in this configuration.
+SITE_NAME = "VANTYX DEV."
 OWNER_WA = "6285880876542"
 OWNER_TG = "SONN91"
 

@@ -1,6 +1,6 @@
 <div align="center">
 
-# ⚡ DIKZZAPI
+# ⚡ VANTYX DEV.
 
 **API documentation portal + live playground running on Vercel Functions.**
 
@@ -16,22 +16,22 @@
 
   Endpoint yang tersedia:
 
-  - `https://api-n0xx.vercel.app/api/catalog`
-  - `https://api-n0xx.vercel.app/api/health`
-  - `https://api-n0xx.vercel.app/v1/...`
+  - `https://api.yukamodesange-host.my.id/api/catalog`
+  - `https://api.yukamodesange-host.my.id/api/health`
+  - `https://api.yukamodesange-host.my.id/v1/...`
 
   Fitur yang bergantung pada Cloudflare binding seperti D1, Workers AI, dan Cron perlu
   dikonfigurasi ulang di Vercel sebelum endpoint terkait digunakan.
 
 
-[![Live](https://img.shields.io/badge/live-api-n0xx.vercel.app-2ea44f?style=for-the-badge&logo=cloudflare&logoColor=white)](https://api-n0xx.vercel.app)
+[![Live](https://img.shields.io/badge/live-api.yukamodesange-host.my.id-2ea44f?style=for-the-badge&logo=cloudflare&logoColor=white)](https://api.yukamodesange-host.my.id)
 [![Platform](https://img.shields.io/badge/Vercel-Functions-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://vercel.com/)
 [![Runtime](https://img.shields.io/badge/Node-JS-339933?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org/)
 [![Storage](https://img.shields.io/badge/D1-SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)](https://developers.cloudflare.com/d1/)
 
-**🌐 Live:** [api-n0xx.vercel.app](https://api-n0xx.vercel.app) &nbsp;·&nbsp;
-**👤 Author:** DikZz Xynzz &nbsp;·&nbsp;
-**💬 Contact:** [WhatsApp](https://wa.me/6285757411154) · [Telegram](https://t.me/maklohytam)
+**🌐 Live:** [api.yukamodesange-host.my.id](https://api.yukamodesange-host.my.id) &nbsp;·&nbsp;
+**👤 Author:** SONN91 &nbsp;·&nbsp;
+**💬 Contact:** [WhatsApp](https://wa.me/6285757411154) · [Telegram](https://t.me/SONN91)
 
 </div>
 
@@ -544,7 +544,7 @@ before `schema.sql` is applied.
 | Command | What it does |
 | --- | --- |
 | `npm run dev` | Local server on `http://127.0.0.1:8787` |
-| `npm run deploy` | Publish to `api-n0xx.vercel.app` |
+| `npm run deploy` | Publish to `api.yukamodesange-host.my.id` |
 | `npm run db:init` | Apply `schema.sql` to the remote D1 database |
 | `npm run db:init:local` | Same, for the local dev database |
 | `npm run new` | Scaffold a new endpoint |
@@ -675,8 +675,8 @@ be embedded straight into an `<img>` or saved to disk. The upstream call gets th
 ## 📦 Response format
 
 ```json
-{ "status": true,  "creator": "DikZz Xynzz — t.me/maklohytam", "result": {} }
-{ "status": false, "creator": "DikZz Xynzz — t.me/maklohytam", "message": "..." }
+{ "status": true,  "creator": "SONN91 — t.me/SONN91", "result": {} }
+{ "status": false, "creator": "SONN91 — t.me/SONN91", "message": "..." }
 ```
 
 Every call is recorded in D1 through `ctx.waitUntil`, so tracking never adds
@@ -685,7 +685,7 @@ latency and a database outage can't fail a request.
 Endpoints that sit in front of a third-party service (Dola, Roblox Stalk, Cecan,
 text2img, Turnstile) go through `src/lib/ikyy.js`, which returns only the payload
 and throws on anything else. The upstream stamps its own `creator` on every JSON
-body, and re-wrapping is what keeps that out of a DIKZZAPI response.
+body, and re-wrapping is what keeps that out of a VANTYX DEV. response.
 
 ## 📞 Contact
 
@@ -694,13 +694,13 @@ body, and re-wrapping is what keeps that out of a DIKZZAPI response.
 | Kanal | Link |
 | --- | --- |
 | 💚 WhatsApp | [wa.me/6285757411154](https://wa.me/6285757411154) |
-| ✈️ Telegram | [t.me/maklohytam](https://t.me/maklohytam) |
+| ✈️ Telegram | [t.me/SONN91](https://t.me/SONN91) |
 | ✈️ Telegram (backup) | [t.me/dikzxinxz](https://t.me/dikzxinxz) |
 
 <br>
 
-**Dibangun & dirawat oleh DikZz Xynzz** · berjalan di Cloudflare Workers ⚡
+**Dibangun & dirawat oleh SONN91** · berjalan di Cloudflare Workers ⚡
 
-<sub>© DIKZZAPI — <a href="https://api-n0xx.vercel.app">api-n0xx.vercel.app</a></sub>
+<sub>© VANTYX DEV. — <a href="https://api.yukamodesange-host.my.id">api.yukamodesange-host.my.id</a></sub>
 
 </div>

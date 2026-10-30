@@ -7,7 +7,7 @@
  *   3. Endpoint dispatch for /v1/* from the registry
  *   4. Anything else falls through to the static assets in public/
  *
- * Author: SONN91 — t.me/maklohytam
+ * Author: SONN91 — t.me/SONN91
  */
 
 import { match, catalog } from './lib/registry.js';
@@ -90,7 +90,7 @@ async function dispatch(request, env, ctx, path) {
   const route = match(path);
 
   if (!route) {
-    return fail(`Endpoint "${path}" tidak ditemukan. Lihat daftar lengkap di https://api-n0xx.vercel.app`, 404);
+    return fail(`Endpoint "${path}" tidak ditemukan. Lihat daftar lengkap di https://api.yukamodesange-host.my.id`, 404);
   }
 
   const { endpoint, mode, inject } = route;
