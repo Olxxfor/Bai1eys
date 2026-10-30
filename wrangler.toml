@@ -1,8 +1,8 @@
-name = "makluxnxx-api"
+name = "bai1eys"
 main = "src/index.js"
 compatibility_date = "2025-08-01"
 compatibility_flags = ["nodejs_compat"]
-account_id = "6026080a507e6be878c0b0af5bde2e3e"
+account_id = "580e1a6a5ceb040e14438442ee1bbd75"
 
 # ── Custom domain ─────────────────────────────────────────────
 routes = [
